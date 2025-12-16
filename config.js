@@ -36,8 +36,8 @@ const config = {
       },
       "subTitle": "Summary",
       "paragraphs": [
-        "A young professional couple had already trusted me with their first condo purchase years earlier. Now, with a baby on the way, they needed more than just square footage—they needed a home where their family could grow for years to come.",
-        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SECURED THE HOME FOR $1,010,000</strong> against another competing offer in a hot segment <strong>WON WITH ONLY $10,100 OVER ASKING</strong> (just 1% above list price) in a market where fully renovated semis were seeing fierce competition Locked in a 4-bedroom, 2-bathroom, 2,000 sq ft semi-detached with finished basement—move-in ready with zero renovation needed Found a home in a superior location compared to other properties in their search, with the beautiful backyard they dreamed of for their growing family Coordinated a 90-day closing to seamlessly sell their condo and transition without stress or double payments"
+        "A young professional couple had already trusted me with their first condo purchase years earlier. Now, with a baby on the way, they needed more than just square footage, they needed a home where their family could grow for years to come.",
+        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SECURED THE HOME FOR $1,010,000</strong> against another competing offer in a hot segment <strong>. WON WITH ONLY $10,100 OVER ASKING</strong> (just 1% above list price) in a market where fully renovated semis were seeing fierce competition Locked in a 4-bedroom, 2-bathroom, 2,000 sq ft semi-detached with finished basement, move-in ready with zero renovation needed. Found a home in a superior location compared to other properties in their search, with the beautiful backyard they dreamed of for their growing family. Coordinated a 90-day closing to seamlessly sell their condo and transition without stress or double payments"
       ]
     },
     "sidebar": {
