@@ -25,7 +25,7 @@ const config = {
   },
   "header": {
     "tag": "CASE STUDY",
-    "title": "How a Growing Family Secured Their Forever Home in Mississauga Against Multiple Offers—Without Overpaying or Settling",
+    "title": "How a Growing Family Secured Their Forever Home in Mississauga Against Multiple Offers, Without Overpaying or Settling",
     "subheadline": "From Condo to Dream Semi-Detached: Winning in a Competitive Market With a Strategic Upsizing Plan"
   },
   "mainBox": {
