@@ -1,16 +1,5 @@
-// =================================================================================================
-// PAGE CONFIGURATION OBJECT
-// This file defines all the dynamic content for the case study page.
-// The `renderer.js` file reads this object to build the HTML.
-// To change text, images, or other content, edit the values in this file.
-// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
-    "companyName": "Julian Kashani",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
     "agents": [
       {
         "name": "Julian Kashani",
@@ -26,7 +15,13 @@ const config = {
           }
         ]
       }
-    ]
+    ],
+    "companyName": "Julian Kashani",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "https://calendly.com/juliankashani-property/discoverycall",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2",
+    "facebookPixelId": ""
   },
   "header": {
     "tag": "CASE STUDY",
@@ -64,7 +59,8 @@ const config = {
         "Their initial $800,000 townhouse budget wouldn't support their long-term family needs—but they didn't realize it yet",
         "They were navigating the stress of selling and buying simultaneously, with a growing family and ticking timeline",
         "In a market where fully renovated semis were attracting competition, they needed to win without overpaying or compromising on quality"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -78,7 +74,8 @@ const config = {
       ],
       "testimonial": {
         "quote": "\"What made the difference was how Julian mapped out the entire process from the beginning. He showed us exactly what we could afford, took us through homes so we could see what was realistic, and then adjusted the plan based on what we actually needed—not just what we thought we wanted. We didn't think we'd be able to get such a beautiful house with an amazing backyard, but his strategy made it possible. He put our interests first every step of the way, and now we have our forever home where our family can grow.\"<br><span>— Satisfied Client</span>"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -88,7 +85,8 @@ const config = {
       ],
       "image": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765886780788-IMG-W12173754_10.jpeg"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -99,7 +97,8 @@ const config = {
         "Locked in a 4-bedroom, 2-bathroom, 2,000 sq ft semi-detached with finished basement—move-in ready with zero renovation needed",
         "Found a home in a superior location compared to other properties in their search, with the beautiful backyard they dreamed of for their growing family",
         "Coordinated a 90-day closing to seamlessly sell their condo and transition without stress or double payments"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -108,7 +107,8 @@ const config = {
         "<strong>Start with education, not emotion</strong>: Viewing homes in your initial budget range reveals what's actually possible and prevents costly mistakes or regrets down the road",
         "<strong>Strategic positioning wins multiple offers</strong>: In competitive situations, a strong pre-approval and tight conditions demonstrate you're a serious buyer—not just price matters",
         "<strong>The right agent reassesses the plan with you</strong>: Markets shift and needs evolve; working with someone who adapts the strategy based on real data (not just pushes you to buy) protects your long-term investment"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "ctaBanner",
@@ -120,24 +120,24 @@ const config = {
     }
   ],
   "footer": {
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "https://property.ca/privacy"
+    },
     "logo": {
       "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-julian.jpg"
+    },
+    "secondaryLogo": {
+      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Property_logo_W.png"
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "Property.ca Inc",
     "brokerageAddress": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "secondaryLogo": {
-      "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-Property_logo_W.png"
-    },
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
-    "privacyPolicy": {
-      "text": "Privacy Policy",
-      "href": "https://property.ca/privacy"
-    }
-  }
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
+  },
+  "githubRepo": "https://github.com/arslvn93/Case-Study-260"
 };
 
-// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
