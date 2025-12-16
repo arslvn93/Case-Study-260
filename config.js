@@ -30,7 +30,7 @@ const config = {
   },
   "mainBox": {
     "summary": {
-      "title": "How a Growing Family Secured Their Forever Home in Mississauga Against Multiple Offers—Without Overpaying or Settling",
+      "title": "How a Growing Family Secured Their Forever Home in Mississauga Against Multiple Offers, Without Overpaying or Settling",
       "heroImage": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1765886770820-IMG-W12173754_1.jpeg"
       },
