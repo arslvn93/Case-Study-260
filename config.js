@@ -21,7 +21,7 @@ const config = {
     "mainCTAButtonURL": "https://calendly.com/juliankashani-property/discoverycall",
     "primaryColor": "#e3c379",
     "accentColor": "#d9c6a2",
-    "facebookPixelId": ""
+    "facebookPixelId": "536234429581639"
   },
   "header": {
     "tag": "CASE STUDY",
